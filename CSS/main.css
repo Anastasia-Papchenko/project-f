@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    border: 0;
+    outline: 0;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all 0.3s linear;
+  }
+
+  html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;  
+  }
+
+  body {
+    background: #282828;
+  }
+
+header {
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 8%;
+}
+
+header .logo {
+    font-size: calc(13px + (25 - 13) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 700;
+    color: #2E8B57
+}
+
+header .logo i {
+    color:black;
+}

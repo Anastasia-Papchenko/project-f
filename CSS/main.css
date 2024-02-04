@@ -5,20 +5,44 @@
     font-family: 'Nunito', sans-serif;
     border: 0;
     outline: 0;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     text-decoration: none;
     transition: all 0.3s linear;
   }
 
-  html {
+html {
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;  
   }
 
-  body {
+body {
     background: #282828;
   }
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 100vh;
+    align-items: center;
+    padding-left: 3rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://images.unsplash.com/photo-1589656966895-2f33e7653819?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center/cover;
+}
+
+.home .content {
+    flex: 1 1 40rem;
+    padding-top: 6.5rem;
+}
+
+.home .content h3 {
+    font-size: calc(30px + (65 - 30) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.home .content p {
+    font-size: calc(14px + (23 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 700;
+}
 
 header {
     position: fixed;
@@ -36,9 +60,22 @@ header {
 header .logo {
     font-size: calc(13px + (25 - 13) * ((100vw - 300px) / (1600 - 300)));
     font-weight: 700;
-    color: #2E8B57
+    color: #00BFFF
 }
 
 header .logo i {
     color:black;
+}
+
+.card {
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    min-height: 100vh;
+}
+
+.card .heading {
+    text-align: center;
+    font-size: calc(30px + (65 - 30) * ((100vw - 300px) / (1600 - 300)));
+    padding: 1rem;
+    color: black;
+    margin-bottom: 3rem;
 }

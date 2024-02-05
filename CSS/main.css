@@ -10,10 +10,6 @@
     transition: all 0.3s linear;
   }
 
-:root {
-    --box-shadow: 0rem o.5rem 1rem rgba(0, 0 , 0, 0.2)
-}
-
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -59,7 +55,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 2rem 8%;
-    box-shadow: var(--box-shadow);
+    box-shadow: 0rem 1rem 1.5rem rgba(0, 0 , 0, 0.2);
 }
 
 header .logo {
@@ -99,6 +95,8 @@ header .logo i {
     overflow: hidden;
     border: 0.1rem solid rgba(0, 0, 0, 0.2);
     border-radius: 1rem;
+    box-shadow: 0rem 1rem 1.5rem rgba(0, 0 , 0, 0.2), 0rem -1rem 1.5rem rgba(0, 0 , 0, 0.2);
+
 }
 
 .card .box-container .box .image {

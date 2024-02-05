@@ -10,6 +10,10 @@
     transition: all 0.3s linear;
   }
 
+:root {
+    --box-shadow: 0rem o.5rem 1rem rgba(0, 0 , 0, 0.2)
+}
+
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -27,7 +31,7 @@ body {
     min-height: 100vh;
     align-items: center;
     padding-left: 3rem;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://images.unsplash.com/photo-1589656966895-2f33e7653819?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://images.unsplash.com/photo-1637963343684-b2e722e09d3d?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center/cover;
 }
 
 .home .content {
@@ -50,11 +54,12 @@ header {
     left: 0;
     right: 0;
     z-index: 1000;
-    background: white;
+    background: #FFFFFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 8%;
+    box-shadow: var(--box-shadow);
 }
 
 header .logo {
@@ -68,7 +73,8 @@ header .logo i {
 }
 
 .card {
-    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+    background-blend-mode: screen;    
     min-height: 100vh;
 }
 
@@ -92,7 +98,7 @@ header .logo i {
     position: relative;
     overflow: hidden;
     border: 0.1rem solid rgba(0, 0, 0, 0.2);
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
 
 .card .box-container .box .image {

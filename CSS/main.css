@@ -245,8 +245,22 @@ header ul.menu li a:hover {
     width: 70%;
     margin: 0 auto;
     padding: 2rem;
-    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
 
+.div_photo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_photo .title_photo {
+    font-size: 3rem;
+    /* padding: 1rem orem 3rem; */
+    color: #FFFFFF;
+    font-size: calc(30px + (65 - 30) * ((100vw - 300px) / (1600 - 300)));   
+    margin-top: 3rem;
 }
 
 .photo .left-side .img img {
@@ -259,12 +273,12 @@ header ul.menu li a:hover {
     flex: 1 1 40rem;
 }
 
-.photo .left-side h2 {
+/* .photo h2 {
     font-size: 3rem;
     padding: 1rem orem 3rem;
     color: #FFFFFF;
     margin-bottom: 3rem;
-}
+} */
 
 .photo .right-side {
     flex: 1 1 40rem;
@@ -288,3 +302,21 @@ header ul.menu li a:hover {
     color: #FFFFFF;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    color: rgba(0, 0 , 0, 0.1);
+}
+
+.footer h3{ 
+    position: absolute;
+    color: #FFFFFF;
+    font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));   
+
+}
+
+.footer img {
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+}

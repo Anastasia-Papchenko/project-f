@@ -236,3 +236,55 @@ header ul.menu li a:hover {
     opacity: 1;
     visibility: visible;
 }
+
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    padding: 2rem;
+    margin-top: 3rem;
+
+}
+
+.photo .left-side .img img {
+    width: 43rem;
+    height: 60rem;
+    border-radius: 2rem;
+}
+
+.photo .left-side {
+    flex: 1 1 40rem;
+}
+
+.photo .left-side h2 {
+    font-size: 3rem;
+    padding: 1rem orem 3rem;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+}
+
+.photo .right-side {
+    flex: 1 1 40rem;
+}
+
+.photo .right-side .box_side {
+    margin: 1rem;
+    padding: 2rem 2.5rem;
+    width: 45rem;
+}
+
+.photo .right-side .box_side i {
+    font-size: 4rem;
+    color: rgba(153, 153, 153, 0.5);
+    margin-bottom: 1rem;
+}
+
+.photo .right-side .box_side p {
+    font-size:  1.8rem;
+    margin-bottom: 1rem;
+    color: #FFFFFF;
+}
+

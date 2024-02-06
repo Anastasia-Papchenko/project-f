@@ -5,3 +5,4 @@ menu_icon.onclick = () => {
     menu_icon.classList.toggle('fa-times');
     menu.classList.toggle('active');
 }
+

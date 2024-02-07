@@ -129,11 +129,29 @@ header ul.menu li a:hover {
 
 .home .content h3 {
     font-size: calc(30px + (65 - 30) * ((100vw - 300px) / (1600 - 300)));
+    color: #FFFFFF;
 }
 
 .home .content p {
     font-size: calc(14px + (23 - 14) * ((100vw - 300px) / (1600 - 300)));
     font-weight: 700;
+    color: #FFFFFF;
+}
+
+.text {
+    display: flex;
+    justify-items: center;  
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: 3rem;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.text p { 
+    color: #FFFFFF;
+    font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+   
 }
 
 .container {
